@@ -1,0 +1,61 @@
+abstract class T {
+  static const String yes = "آری";
+  static const String no = "خیر";
+  static const String question = "پرسش؟";
+  static const String wellDone = "آفرین، بازی جدید؟";
+  static const String failDone = "متاسفم! بازی جدید؟";
+  static const String winsTT = "این عدد تعداد بردهای شمار را تا این لحظه نمایش میدهد";
+  static const String losesTT = "این عدد تعداد باختهای شمار را تا این لحظه نمایش میدهد";
+  static const String correctAnswer = "پاسخ صحیح {0} بود";
+  static const String wordNotExist = "کلمه {0} در واژه نامه فارسی موجود نیست";
+  static const String rhino = "کرگدن";
+  static const String settings = "تنظیمات";
+  static const String bgSound = "صدای پس زمینه";
+  static const String effectSound = "صدای جلوه های ویژه";
+  static const String cancel = "راهنما";
+  static const String help = "راهنما";
+  static const String helpText = "کلمه فارسی پنج حرفی را حدس بزنید";
+  static const String alreadyTested = "کلمه {0} قبلا آزموده شده است";
+  static const String reportWord = "گزارش واژه {0} بعنوان نامناسب";
+  static const String reportWordQ = "آیا از گزارش واژه {0} بعنوان نامناسب مطمئن هستید؟";
+  static const String reportWordS = "واژه {0} با موفقیت بعنوان نامطلوب گزارش شد";
+  static const String unknownError = "خطایی رخ داده است";
+  static const String networkError = "خطا در اتصال به اینترنت";
+  static const String logUser = "ورود کاربر";
+  static const String login = "ورود";
+  static const String regUser = "ایجاد کاربر جدید";
+  static const String register = "ایجاد کاربر";
+  static const String back = "برگشت";
+  static const String errorUserName = "حداقل طول نام کاربری ۵ حرف میباشد";
+  static const String errorPassword = "حداقل طول کلمه عبور ۵ حرف میباشد";
+  static const String errorVerifyPassword = "کلمه عبور با تکرار آن یکسان نیست";
+  static const String userName = "نام کاربری";
+  static const String password = "کلمه عبور";
+  static const String verifyPassword = "تکرار کلمه عبور";
+  static const String logout = "خروج از حساب کاربری";
+  static const String logoutConfirm = "آیا برای خروج از حساب کاربری مطمئن هستید؟";
+  static const String loginFull = "ورود به حساب کاربری";
+  static const String score = "امتیاز";
+  static const String rankText = "رتبه";
+  static const String you = "شما";
+  static const String adError = "بازی جدید بعد از مشاهده کامل ویدیو شروع خواهد شد";
+  static const String rank = "رتبه کلی";
+  static const String wins2 = "برد";
+  static const String loses2 = "باخت";
+  static const String loading = "در حال بارگذاری ....";
+  static const String wins = "تعداد برد";
+  static const String wins0 = "تعداد برد: {0}";
+  static const String loses0 = "تعداد باخت: {0}";
+  static const String total0 = "امتیاز کل: {0}";
+  static const String totalRank0 = "کل تعداد شرکت کنندگان: {0}";
+  static const String rank0 = "رتبه شما: {0}";
+  static const String loses1 = "تعداد باخت";
+  static const String ranksTitle = "رده بندی کاربرها";
+  static const String ranksTitleMe = "کاربرهای نزدیک من";
+  static const String ranksTitleAll = "کاربرهای برتر";
+  static const String errorRank = "برای مشاهده رده بندی میبایست در حساب کاربری خود وارد شوید";
+
+  static String format0(String template, String word) {
+    return template.replaceAll("{0}", word);
+  }
+}

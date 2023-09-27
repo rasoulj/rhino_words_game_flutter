@@ -1,0 +1,29 @@
+abstract class F {
+  static const String wins = "wins";
+  static const String loses = "loses";
+  static const String guesses = "guesses";
+  static const String playedAt = "playedAt";
+  static const String history = "history";
+  static const String index = "index";
+  static const String correct = "correct";
+  static const String bgSound = "bgSound";
+  static const String bgImage = "bgImage";
+  static const String effectSound = "effectSound";
+  static const String id = "_id";
+  static const String wuser = "wuser";
+  static const String userName = "userName";
+  static const String password = "password";
+  static const String verifyPassword = "verifyPassword";
+  static const String createdAt = "createdAt";
+  static const String updatedAt = "updatedAt";
+  static const String authToken = "authToken";
+  static const String update = "update";
+  static const String user = "user";
+  static const String score = "score";
+  static const String rank = "rank";
+  static const String winsScore = "winsScore";
+  static const String loseScore = "loseScore";
+  static const String total = "total";
+  static const String ranks = "ranks";
+  static const String loading = "loading";
+}
